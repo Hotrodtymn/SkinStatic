@@ -1,37 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# SkinStatic
+
+### AI-Powered Skin Analysis Web Application
+
+SkinStatic is a responsive web application developed using Next.js, React, TypeScript, and Tailwind CSS.
+
+The application provides an interactive experience where users upload an image and receive API-driven skin analysis results through a multi-step interface.
+
+This project was developed as part of my Frontend Developer internship with Skinstric AI.
+
+## Live Demo
+
+[View SkinStatic](https://skinstatic-intern.vercel.app/)
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- REST APIs
+- Git and GitHub
+- Vercel
+
+## Key Features
+
+### Image Upload
+Users can select and upload an image for analysis.
+
+### API Integration
+Connects the frontend application to an external skin analysis API to process uploaded images and retrieve results.
+
+### Multi-Step User Experience
+Guides users through the application using a structured, multi-page workflow.
+
+### Responsive Design
+Provides layouts designed for desktop and mobile devices.
+
+### Results Presentation
+Displays API-driven analysis information in an organized interface.
+
+## Screenshots
+
+Application screenshots will be added here to demonstrate the user interface and analysis workflow.
 
 ## Getting Started
 
-First, run the development server:
+To run SkinStatic locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Hotrodtymn/Skinstatic-intern.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd Skinstatic-intern
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open the Application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+Note: Features requiring external API access may depend on the project's API configuration.
 
-To learn more about Next.js, take a look at the following resources:
+## Development Experience
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+During development, I worked on building responsive interfaces, implementing API integrations, refining application navigation, and debugging functionality across the user experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project provided practical experience working with Next.js and TypeScript while implementing a multi-step application.
 
-## Deploy on Vercel
+I also participated in a GitHub pull-request workflow, incorporating code review feedback and making revisions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Lessons Learned
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Skinstatic-intern
+This project strengthened my experience with:
+
+- Developing applications using Next.js and TypeScript
+- Integrating REST APIs into frontend applications
+- Managing state across multi-step interfaces
+- Building responsive layouts with Tailwind CSS
+- Debugging application behavior
+- Working through feedback and code revisions
+
+## Future Improvements
+
+Potential improvements include:
+
+- Expanded automated testing
+- Additional accessibility enhancements
+- Further optimization of mobile layouts
+- Improved error handling and user feedback
+
+These are potential enhancements rather than claims about currently implemented features.
+
+## Developer
+
+**Thomas Babb** — Frontend Developer
+
+[Portfolio](https://thomas-babb-portfolio-z91p-sigma.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/thomasbabbpm/) | [GitHub](https://github.com/Hotrodtymn)
